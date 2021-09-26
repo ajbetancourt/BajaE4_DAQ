@@ -31,6 +31,7 @@ const uint8_t SD_CS_PIN = 2;
 // The led blinks for fatal errors. The led goes on solid for
 // overrun errors and logging continues unless ABORT_ON_OVERRUN
 // is non-zero.
+// this is my comment
 #ifdef ERROR_LED_PIN
 #undef ERROR_LED_PIN
 #endif  // ERROR_LED_PIN
